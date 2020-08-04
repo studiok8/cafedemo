@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(208, 174, 240, 0.4);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(cafe-5012416_1920.jpg);
+    background-blend-mode:lighten;
+    background-attachment: fixed;
+}
+header {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 80px;
+    color:#fff;
+    padding-left: 50px;
+}
+li {
+    list-style: none;
+}
+#no1 {
+    background-image: url(table-2777180_1920-1.jpg);
+    border: 4px solid rgba(226, 179, 245);
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    position: fixed ; top: 700px;
+    transition: 1.5s;
+}
+#no1:hover {transform: rotate(360deg);}
+
+#no2 {
+    background-image: url(cup-2899450_1280-1.jpg);
+    border: 4px solid rgb(226, 179, 245);
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    position: fixed ; top: 950px;
+    transition: 1.0s;
+}
+#no2:hover {transform: rotate(360deg);}
+
+#no3 {
+    background-image: url(table-597177_1920-1.jpg);
+    border: 4px solid rgb(226, 179, 245);
+    border-radius: 15px;
+    width: 180px;
+    height: 200px;
+    position: fixed ; top: 1200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+#no3:hover {transform: rotate(360deg);}
+
+.im {
+    margin: 30px;
+
+}
+
+div#menu {
+    position: absolute;
+    top: 2000px;
+    color: #fff;
+}
+img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    border: 4px solid rgb(240, 236, 241);
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+#dri {
+    position: absolute;
+    top: 3800px; 
+}
+
+h1 {color: #fff;padding-left: 110px;}
+
+iframe {
+    margin-left: 40px;
+    border-radius: 15px;
+    flex-basis:800%;
+}
+p {
+    color: #fff;
+    padding-left: 20px;
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+.content-item{
+    display: flexbox;
+    padding: 50px;
+  
+}
+
+.acs_table {
+    display:block;
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: bold;
+    padding: 20px;
+    color: rgb(78, 86, 134);
+    width: 50%;
+    margin-right: 6%;
+}
+h1.acc {text-align: center;padding-top: 40px;}
+.acc {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #3f98ef;
+    opacity: 0.6;
+    border-radius: 50%;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  div#page_top {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+small {color: mediumvioletred;}
