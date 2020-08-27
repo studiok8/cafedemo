@@ -1,3 +1,4 @@
+@media screen and (max-width: 500px){
 body {
     background-color: rgb(208, 174, 240, 0.4);
     width: 100%;
@@ -7,6 +8,11 @@ body {
     background-image: url(cafe-5012416_1920.jpg);
     background-blend-mode:lighten;
     background-attachment: fixed;
+}
+body{
+    background-image: url(cafe-5012416_1920.jpg);
+    width: 50%;
+}
 }
 header {
     font-family: 'Franklin Gothic Medium';
@@ -61,6 +67,7 @@ div#menu {
     top: 2000px;
     color: #fff;
 }
+@media screen and (max-width: 500px){
 img {
     width: 400px;
     height: 300px;
@@ -69,7 +76,11 @@ img {
     border-radius: 15px;
     margin-left: 30px;
 }
-
+img{
+    width: 30%;
+    height: 30%;
+}
+}
 #dri {
     position: absolute;
     top: 3800px; 
@@ -107,9 +118,12 @@ p {
     margin-right: 6%;
 }
 h1.acc {text-align: center;padding-top: 40px;}
+@media screen and (max-width: 500px){
 .acc {
     margin-bottom: 50px;
     display: flex;
+}
+.acc{width: 40%;}
 }
 #home_top{
     width: 50px;
