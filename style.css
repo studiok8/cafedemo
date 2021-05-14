@@ -18,6 +18,14 @@ header {
     color:#fff;
     padding-left: 50px;
 }
+@media screen and (max-width:700px){
+    header {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 50px;
+        color:#fff;
+        padding-left: 10px;
+    }
+}
 li {
     list-style: none;
 }
@@ -84,36 +92,40 @@ h1 {color: #fff;padding-left: 110px;}
 iframe {
     margin-left: 40px;
     border-radius: 15px;
-    flex-basis:800%;
+    width: 80%;
+}
+@media screen and (max-width:700px){
+    iframe {
+        margin-left: 0;
+        border-radius: 15px;
+    }
 }
 p {
     color: #fff;
-    padding-left: 20px;
+    padding-left: 10px;
     float: right;
     width: 300px;
     height: auto;
+    font-size: 20px;
+    line-height: 15px;
+    white-space: nowrap;
 }
-
+@media screen and (max-width:700px){
+    p {
+        color: #fff;
+        padding-left: 0;
+        float: left;
+    }
+}
 .content-item{
-    display: flexbox;
     padding: 50px;
-  
 }
 
-.acs_table {
-    display:block;
-    font-size: 1rem;
-    line-height: 2;
-    font-weight: bold;
-    padding: 20px;
-    color: rgb(78, 86, 134);
-    width: 50%;
-    margin-right: 6%;
-}
 h1.acc {text-align: center;padding-top: 40px;}
 .acc {
-    margin-bottom: 50px;
     display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 #home_top{
     width: 50px;
