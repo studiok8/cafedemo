@@ -21,7 +21,7 @@ header {
 @media screen and (max-width:700px){
     header {
         font-family: 'Franklin Gothic Medium';
-        font-size: 50px;
+        font-size: 80px;
         color:#fff;
         padding-left: 10px;
     }
